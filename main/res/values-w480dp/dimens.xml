@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="SizeFragmentW">250dp</dimen>
+    <dimen name="SizeLinerW">300dp</dimen>
+    <dimen name="SizeFragmentH">150dp</dimen>
+    <dimen name="SizeLinerH">150dp</dimen>
+
+</resources>

@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">AppDAW</string>
+    <string name="developer_1">Daniela Alejandra   Vargas Palomino</string>
+    <string name="developer">Desarrolladora</string>
+    <string name="developer_2">Maribel  Vargas Exiga</string>
+    <string name="developer_3">Emiliano  Aguilar Cerna</string>
+    <string name="developer_man">Desarrollador</string>
+    <string name="description_pop_up">How to Create a Custom Pop Up with Great UI in AndroidStudio</string>
+    <string name="url_pop_up">Autor: Aws Rh   https://www.youtube.com/watch?v=0DH2tZjJtm0</string>
+    <string name="description_layout_canaria">Design a Modern Simple Profile UI with Constraint Layout in Android Studio 3.1 Canary 6</string>
+    <string name="url_layout_canaria">Autor: AndroUI   https://www.youtube.com/watch?v=CZ-qLoSdzwk</string>
+    <string name="title_lesson3">Tema 3</string>
+    <string name="msg_lesson3_unit1">Seguridad y vulnerabilidad.</string>
+    <string name="title_lesson2">Tema 2</string>
+    <string name="msg_lesson2_unit1">Medios digitales soportados en la web</string>
+    <string name="title_lesson1">Tema 1</string>
+    <string name="msg_lesson1_unit1">Introducción a las tecnologías web</string>
+    <string name="title_unit1">Unidad I Ingeniería Web</string>
+    <string name="title_unit2">Unidad II Arquitectura de la Información</string>
+    <string name="msg_lesson1_unit2">Fundamentos de la arquitectura de la información</string>
+    <string name="msg_lesson2_unit2">Usabilidad</string>
+    <string name="msg_lesson3_unit2">Estructura de la información</string>
+    <string name="title_lesson4">Tema 4</string>
+    <string name="msg_lesson4_unit2">Patrones de diseño web</string>
+    <string name="title_unit3">Unidad III Desarrollo Web</string>
+    <string name="msg_lesson1_unit3">Integración de la aplicación web</string>
+    <string name="msg_lesson2_unit3">Puesta en marcha</string>
+    <string name="title_unit4">Unidad IV Comercio Electrónico</string>
+    <string name="msg_lesson1_unit4">Conceptos Básicos de Comercio electrónico</string>
+    <string name="msg_lesson2_unit4">Paradigmas del comercio Electrónico</string>
+    <string name="title_unit5">Unidad V Web Móvil</string>
+    <string name="msg_lesson1_unit5">Introducción a web móvil</string>
+    <string name="msg_lesson2_unit5">Hojas de estilos para móvil</string>
+    <string name="msg_lesson3_unit5">XHTML</string>
+    <string name="close">X</string>
+    <string name="title_unit_one">Unidad I</string>
+    <string name="title_unit_two">Unidad II</string>
+    <string name="title_unit_three">Unidad III</string>
+    <string name="title_unit_four">Unidad IV</string>
+    <string name="title_library">Bliblioteca</string>
+    <string name="title_podcast">Podcast</string>
+    <string name="title_notice">Noticias</string>
+    <string name="title_tem">Temario</string>
+    <string name="title_head_first_ruby">Head First Ruby</string>
+    <string name="authors_book_hearfirst">Autor: Jay McGavren   Editorial: O\'REILLY</string>
+    <string name="title_book_ecommerce">Fundamentos de Comercio Electrónico</string>
+    <string name="authors_book_ecommerce">Autor: Gustavo Sebastián Torre y Darío Gabriel Codner   Editorial: Universidad Virtual de Quilmes, 2013</string>
+    <string name="title_book_app_java">Desarrollo de Aplicaciones con Java</string>
+    <string name="authors_book_app_java">Autor: Lic. Henry Terreno y Lic. Jose Paredes   Editorial: Fundación Código Libre Dominicano</string>
+    <string name="title_book_app_web">Desarrollo de Aplicaciones Web</string>
+    <string name="author_book_app_web">Autor: Carles Mateu   Editorial: Formación de Posgrado</string>
+    <string name="title_book_java_design">Java Design Patterns</string>
+    <string name="author_book_java_design">Autor: Rohit Joshi   Editorial: Java Code Geeks</string>
+    <string name="title_activity_unit1_engineering_web">Unit1EngineeringWebActivity</string>
+    <string name="objective_unit_engineering_web">Objetivo de la Unidad I El alumno comprenderá las diferentes tecnologías web existentes para seleccionar la adecuada de acuerdo a las necesidades de la empresa.</string>
+    <string name="name_theme_one">Introducción a las tecnologías web.</string>
+    <string name="name_theme_two">Medios digitales soportados en la web.</string>
+    <string name="name_theme_three">Seguridad y vulnerabilidad.</string>
+    <string name="info_introduction_web">Identificar los conceptos básicos de las tecnologías web actuales así como las tecnologías de desarrollo ASP, JSP, PHP.</string>
+    <string name="info_theme_digital_media">Reconocer los diferentes medios digitales soportados por web tales como imágenes, audio, video.</string>
+    <string name="info_theme_security">Reconocer las diferentes medidas de seguridad para el desarrollo de un sitio y/o aplicación web</string>
+    <string name="enter_email">Escribe tu correo</string>
+    <string name="enter_password">Escribe tu contraseña</string>
+    <string name="registar">Registrarse</string>
+    <string name="login">Entrar</string>
+    <string name="temario">Entrar sin registrar</string>
+    <string name="cannot_signin">No se pudo iniciar sesión</string>
+    <string name="open">Open</string>
+    <string name="closes">Close</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_unit3_development_web">Unit3DevelopmentWebActivity</string>
+    <string name="title_activity_unit2_architecture_information">Unit2ArchitectureInformationActivity</string>
+
+    <!-- Unidad Tematica -->
+    <string name="name_theme_fundamentals_information">Fundamentos de la arquitectura de la información.</string>
+    <string name="name_theme_usability">Usabilidad.</string>
+    <string name="name_theme_structure_information">Estructura de la información.</string>
+    <string name="name_theme_web_design_patterns">Patrones de diseño web.</string>
+    <string name="information_theme_one">Reconocer los conceptos, fundamentos, procesos y funciones de la arquitectura de la información.</string>
+    <string name="informate_theme_two">Definir el concepto de usabilidad.</string>
+    <string name="informate_theme_three">Reconocer los tipos de estructura de la información (lineal, jerárquica, red).</string>
+    <string name="informate_theme_four">Identificar los patrones de diseño que son aplicables a web.</string>
+    <string name="description_theme_usability">La usabilidad es el estudio y mejora de la forma en que los usuarios navegan, buscan información o interactúan con un servicio web. Aplica un conjunto de técnicas para identificar y solucionar estos problemas. \n \n Se utiliza en procesos de diseño y en procesos de evaluación. \n  * Entrevistas \n * Cuestionarios.  \n * Observación.  \n * Inspecciones. \n  * Control de acciones. \n  * Análisis de tareas. \n  * Grupos de enfoque. \n * Evaluación heurística por expertos. \n  * Control de movimiento visual.</string>
+    <string name="description_theme_structure_information">Los sitios web son sistemas hipermedia: conjuntos de páginas interrelacionadas por enlaces unidireccionales. Cada una de las páginas puede contener sub-elementos con entidad propia, contenidos multimedia y herramientas interactivas.\n \nLa Estructura del sitio web se refiere precisamente a las conexiones y relaciones entre páginas, a su topología. \n \nUn sitio web puede encontrarse estructurado de forma muy diversa, solapar diferentes tipos de estructuras y contener subestructuras diferentes a la estructura general.</string>
+    <string name="description_theme_web_design_patterns">El patrón de diseño web es un aspecto del diseño visual por el que se determina la disposición general de los elementos del sitio web en el área de visualización determinado por el navegador. \n  Un Patrón de Diseño (design pattern) es una solución repetible a un problema  recurrente en el diseño de software. Reflejan todo el rediseño y remodificación que los desarrolladores han ido haciendo a medida que intentaban conseguir mayor reutilización y flexibilidad en su software. \n \nLos patrones documentan y explican problemas de diseño, y luego discuten una buena solución a dicho problema. Con el tiempo, los patrones comienzan a incorporarse al conocimiento y experiencia colectiva de la industria del software. \n \nLos patrones de diseño proveen una forma efectiva para compartir experiencia con la comunidad de programadores de software orientado a objetos. \n Existen diversas maneras de agrupar los patrones de diseño. Quizá la más extendida es agruparlos según su propósito. </string>
+
+    <!-- Primera Unidad -->
+    <string name="object_unit_architecture_information">El objetivo es introducir los fundamentos de la arquitectura de información (AI), es decir, los principios y cimientos de la disciplina. Para estructurar el contenido sobre el tema “Arquitectura de información en entornos web”.</string>
+    <string name="objective_engineering_web">La ingeniería web es la aplicación de metodologías sistemáticas, disciplinadas y cuantificables al desarrollo eficiente, operación y evolución de aplicaciones de alta calidad en la World Wide Web.</string>
+    <string name="part_three_object_engineering">El alumno comprenderá las diferentes tecnologías web existentes para seleccionar la adecuada de acuerdo a las necesidades de la empresa.</string>
+    <string name="description_theme_one">El desarrollo de aplicaciones web ha evolucionado enormemente en la última década ha tenido como resultado que hay una gran cantidad de tecnologías, librerías, herramientas y estilos arquitectónicos para desarrollar una aplicación web. \n \nTecnologías del servidor existen multitud de tecnologías de construcción de aplicaciones en el servidor. \nLas más usadas son: PHP, Java EE, ASP.NET. Menos usadas: Ruby on Rails, Grails (Groovy), Django (Python), Perl, ColdFusion, muchas más.</string>
+    <string name="description_theme_two">* Blogs \n Es la plataforma de Internet proporciona diversas maneras de comunicación, pero una de las más populares es el denominado blog. \n \n* El periódico electrónico \nEs un producto interactivo y multimedia. Se vale de diferentes recursos que lo vuelven, un medio multimedia como el texto, la imagen, el vídeo y el sonido. \n  \n* Blogs, televisión en internet. \nDenominados Vlog, Vídeo-blogs o Videotácoras los cuales permiten la publicación de programas de televisión a través de servicios diseñados para distribuir el material televisivo.</string>
+    <string name="description_theme_three">\n* Protocolo SET se basa en el uso de certificados digitales para asegurar la perfecta identificación de todas aquellas partes que intervienen en una transacción on-line basada en el uso de tarjetas de pago, y en el uso de sistemas criptográficos de clave pública para proteger el envío de los datos sensibles en su viaje entre los diferentes servidores que participan en el proceso.\n \n* Secure Sockets Layer (SSL) es el estándar mundial de la seguridad en la Web. La tecnología SSL se enfrenta a potenciales problemas derivados de la visualización no autorizada de información confidencial, la manipulación de datos, la apropiación de datos, el phishing y los demás tipos de amenazas en los sitios Web.</string>
+    <string name="description_two_theme_security">\n \n* Transport Layer Security (TLS) \nPara intentar corregir las deficiencias observadas en SSL v3 se buscó un nuevo protocolo que permitiera transacciones seguras por Internet, sobre todo teniendo en cuenta que SSL es propiedad de la empresa Nestcape.\n \n* Protocolo S-HTTP \nEl protocolo Secure HTTP fué desarrollado por Enterprise Integration Technologies, EIT, y al igual que SSL permite tanto el cifrado de documentos como la autenticación mediante firma y certificados digitales, pero se diferencia de SSL en que se implementa a nivel de aplicación.</string>
+    <string name="description_three_theme_digital_media">* Redes sociales.\nEntre los años 2001 y 2002 aparecen por primera vez los sitios que fomentan el uso de redes de amigos. En el 2003 aparecen servicios de redes sociales como Friendster, Tribe y MySpace que se vuelven muy populares. Rápidamente algunas empresas reconocidas ingresan a las redes sociales. las redes sociales son formas de interacción social, definida como un intercambio dinámico entre personas, grupos e instituciones en contextos de complejidad.\n* Podcast \nEl podcasting consiste en el uso y creación de archivos de sonido en formato MP3 generalmente. Utiliza como modo de distribución el archivo RSS que permite una suscripción al servicio y estos pueden ser descargados de Internet hacia reproductores móviles.</string>
+    <string name="description_digital_media">Medios de comunicación son instrumentos utilizados en la sociedad contemporánea para informar y comunicar mensajes en versión textual, sonora, visual o audiovisual. Algunas veces son utilizados para comunicar de forma masiva, para muchos millones de personas, como es el caso de la televisión o los diarios impresos o digitales, y otras, para transmitir información a pequeños grupos sociales, como es el caso de los periódicos locales o institucionales.</string>
+    <string name="description_theme_security">Una vulnerabilidad es una debilidad del sistema informático que puede ser utilizada para causar un daño. Las debilidades pueden aparecer en cualquiera de los elementos de una computadora, tanto en el hardware, el sistema operativo, cómo en el software.</string>
+    <string name="description_theme_introduction_web">Tipos de aplicaciones web \n \n * Aplicación web animada. \nSon aplicaciones web creadas con la tecnología Flash. Esta tipología de programación permite crear y presentar contenidos con efectos animados. Es una tecnología muy atractiva para desarrolladores y diseñadores. El problema que tienen las webs animadas es que no son útiles para mejorar el posicionamiento ni para optimizar el SEO.</string>
+    <string name="description_three_theme_introduction_web"> * Aplicación web con “Gestor de Contenidos” \n Tienen un gestor de contenidos (CMS) a través del cual el administrador y los editores pueden ir añadiendo los contenidos, realizando los cambios y actualizaciones, etc. Muchas empresas han optado por este tipo de aplicaciones web, por la facilidad de publicar contenidos. Es muy popular su uso en diarios digitales, blogs.\n * Portal web app. un tipo de aplicación en el que la página principal permite el acceso a diversos apartados, categorías o secciones. Puede haber de todo: foros, chats, correo electrónico, un buscador, zona de acceso con registro, contenido más reciente.</string>
+    <string name="part_one_description">\nTipos de vulnerabilidad \n   *Configuración errónea de seguridad. \n Un parámetro mal especificado puede permitir el acceso a nuestras aplicaciones. \n   * Solicitudes falsificadas en sitios cruzados. \nEl atacante engaña a la víctima a enviar solicitudes HTTP que no desea lo que permite al atacante ejecutar operaciones que el usuario no desea.</string>
+    <string name="part_objetive_engineering_web">Se encontrarán todos los temas relacionados en la Unidad I de Ingeniería Web</string>
+    <string name="part_three_theme_architecture_information">El alumno estructurará la información organizacional para integrarla a la aplicación web.</string>
+
+
+    <!-- Segunda Unidad -->
+    <string name="description_theme_fundamentals_information">La arquitectura de la información se encarga de organizar, etiquetar y estructurar los diferentes flujos informativos creando un mapa que guíe al visitante del sitio web mejorando en lo posible su experiencia de usuario. \n La persona destinada a esta función deberá ser capaz de determinar aquellos contenidos y funcionalidades propios del sitio web que se identifiquen con los objetivos y las expectativas del usuario al visitar nuestra página. \n  \nLos principios básicos de la arquitectura de la información para el web fueron establecidos por Rosenfeld y Morville en el libro del oso polar, en 1998. \nEl éxito de la información en web lo dan lo usuarios. Si un web es útil, el usuario vuelve. \nEl usuario considera útil el web si satisface sus objetivos y necesidades.\nEl web también debe satisfacer los objetivos del propietario u organización. \n * Perspectivas del usuario: acceder a la información que necesita de forma rápida y fácil.  \n * Perspectiva del propietario: deseo de recuperar la inversión, demostrando el valor del servicio. La combinación de estas perspectivas exige pensar en ambos lados e intereses.</string>
+    <string name="part_one_theme_fundamental_information">Los sistemas, estructuras o recursos para estructurar una web y que definen la AI de un sitio se llaman componentes o anatomía de la arquitectura de información y son los siguientes: \n * Sistemas de organización  \n * Sistemas de etiquetado  \n * Sistemas de navegación \n * Sistemas de búsqueda \n * Vocabularios o lenguajes documentales</string>
+    <string name="part_two_theme_fundamental_information">* Sistemas de navegación: Elementos que permiten navegar por el web, incluidos en las propias páginas. \n * Tipos de sistemas: jerárquicos, globales, específicos. \n * Elementos de navegación: barras de navegación, menús desplegables. Principios de legibilidad y consistencia. \n * Sistemas de etiquetado: Las etiquetas se usan para representar contenidos. Necesidad de desarrollarlas como sistema. Etiquetas de texto y/o gráficas. Principios de consistencia y permanencia. Políticas de utilización de etiquetas. \n * Sistemas de búsqueda: Mecanismos para localizar información específica. Motores internos. Mapas del web. Directorios e índices. Principio de integración de la navegación y de la búsqueda. \n * Sistemas de metadatos: Etiquetado y clasificación del contenido informativo del contenido web. Necesidad de desarrollo sistemático de los principios de etiquetado y de la definición de esquemas de metadatos. Suele ser necesario desarrollar esquemas específicos, dependiendo del contexto y de los usuarios.</string>
+    <string name="part_three_theme_fundamental_information">Hacia un diseño completo: \n - Organización a alto nivel de la información. \n - Obtención y representación de la metáfora.\n - Creación de escenarios.\n - Diseño estructural de las páginas.\n - Desarrollo de prototipos.\n - Evaluación de propuestas.</string>
+    <string name="titile_theme_one_arquitecture">Fundamentos de la arquitectura de la información</string>
+    <string name="title_theme_two_arquitecture">Usabilidad</string>
+    <string name="part_two_theme_usability">Los servicios y productos de información digital vienen sin manuales, sin cursillos y sin servicios de atención al cliente. El usuario de información digital no pierde el tiempo comprendiendo o indagando, simplemente, se las arregla.</string>
+    <string name="part_three_theme_usuability">El usuario explora la página desde la esquina superior izquierda siguiendo los ejes x/y. \nSe detiene en: palabras resaltadas, cabeceras y subcabeceras, listas de elementos, elementos gráficos contrastados... \nEl usuario quiere leer (o visualizar):\n * Párrafos cortos. \n * Una idea por párrafo.\n * La pirámide invertida.\n La mitad de palabras que en escritura convencional.\n * Redacción concisa y objetiva.\n Aplican la economía de la atención: Los usuarios tienden a ignorar las áreas de navegación en las páginas web.\nSólo exploran el contenido.\nNo comprenden la arquitectura de información en la que se encuentran.\nSi el contenido no interesa, no pierden tiempo con los elementos complementarios.</string>
+    <string name="title_theme_three_arquitecture">Estructura de la información</string>
+    <string name="title_theme_four_arquitecture">Patrones de Diseño Web</string>
+    <string name="part_two_theme_structure_information">Estructuras de Navegación/Información \n \n* Estructuras secuenciales \nLos páginas se encuentran interrelacionadas de forma lineal. Esta estructura se utiliza en tareas de navegación o interacción en las que es necesario que el usuario complete cada uno de los pasos ordenadamente (carrito de compra, registro como usuario,...) o para la segmentación de bloques de información de naturaleza secuencial (artículos, comics, diapositivas...).Se trata de un tipo de estructura muy sencilla por lo que no provoca desorientación alguna al usuario en la navegación. \n \n* Estructuras hipertextuales \nEs una estructura hipertextual las páginas se enlazan por similitud o relación directa entre los contenidos, permitiendo al usuario que se encuentra visualizando una página \'saltar\' hacia otras que le puedan interesar por contener información relacionada. \nEste tipo de estructura, si bien ofrece mayor libertad y dinamismo a la navegación puede ocasionar desorientación, provocando que el usuario se sienta \'perdido\'. \n \nEstructuras jerárquicas \n La jerárquica es la estructura de información más común en sitios web, debido en gran medida a su popularización por grandes portales y directorios temáticos. La organización en forma de árbol, por un lado resulta lo suficientemente flexible y escalable como para posibilitar la organización de grandes cantidades de páginas, y por otro resulta muy orientativa para el usuario en su navegación.</string>
+    <string name="part_three_theme_structure_information">En este tipo de estructuras hay que intentar mantener un equilibrio entre ancho y profundidad de la jerarquía. Jerarquías muy profundas pueden provocar que las páginas finales queden muy distanciadas de la página origen, y por tanto de difícil recuperabilidad o encontrabilidad. Por otro lado, jerarquías muy anchas pueden desorientar y confundir al usuario al ofrecer demasiadas opciones de navegación desde una misma página.</string>
+    <string name="part_two_theme_web_design_patterns">Componentes \n \n 1. Nombre del patrón: permite describir en pocas palabras un problema de diseño junto con sus soluciones y consecuencias. \n 2. Problema (o fuerzas no balanceadas): indica cuándo aplicar el  patrón.Muestra la verdadera esencia del problema.entre ellos: \n    * Requerimientos a cumplir por la solución.\n    * Restricciones a considerar.\n    * Propiedades deseables que la solución debe tener\n 3. Solución. No describe una solución o implementación en concreto, sino que un patrón es más bien como una plantilla que puede aplicarse en diversas  situaciones diferentes. El patrón brinda una descripción abstracta de un problema de diseño y cómo lo resuelve una determinada disposición de objetos.\n 4. Consecuencias. Resultados en términos de ventajas e inconvenientes.</string>
+    <string name="part_three_theme_web_design_patterns">En este caso tendríamos las siguientes categorías: \n \n  * Patrones creacionales: utilizados para instanciar objetos, y así separar la implementación del cliente de la de los objetos que se utilizan. Con ellos intentamos separar la lógica de creación de objetos y encapsularla. \n * Patrones de comportamiento: se utilizan a la hora de definir como las clases y objetos interaccionan entre ellos. \n  * Patrones estructurales: utilizados para crear clases u objetos que incluidos dentro de estructuras más complejas.</string>
+    <string name="parte_objective_arquitecture_information">Se encontrarán todos los temas relacionados en la Unidad II de Arquitectura de la Información</string>
+
+    <!-- Tercera Unidad -->
+    <string name="description_development_web">¿Qué es Ruby on Rails? \n  Es un framework de desarrollo construido en lenguaje Ruby que permite construir aplicaciones web que usan bases de datos. \n  Fue creado por un programador Japonés, Yukihiro Matsumoto, comenzando su desarrollo en el año 1993, siendo liberada la primera versión al público en el año 1995, actualmente la última release estable es la 2.1.4. \n \n ¿Qué es Ruby? \n Ruby es un lenguaje de programación que se usa para crear webs. Su expresión está adaptada a la capacidad cognitiva humana, en lugar de la capacidad ejecutora de las máquinas.</string>
+    <string name="description_theme_development_two"><![CDATA[1.0 Instalando Rails \n Lo primero que se debe hacer es abrir una consola de comandos. \n  Las líneas que empiezan por $ son los comandos que se deben ejecutar en la consola. \n Lo primero es comprobar que se tiene instalada alguna versión reciente de Ruby: \n $ Ruby –v \n \n El sistema debe contar con SQLite 3 instalado correctamente. Para comprobar si es así, ejecuta el siguiente comando: \n $ sqlite3 --version \n \n Una vez comprobado que se tiene tanto Ruby como SQLite 3, para instalar Rails, usa el comando proporcionado por RubyGems gem install: \n $ gem install rails \n\n Para verificar que la instalación esté correcta, se ejecuta lo siguiente: \n $ rails --versión \n\n  1.1 Creando la aplicación de Blog  Para crear  un proyecto,  ejecuta: \n $ rails new blog \n \n Esto creará una aplicación Rails llamada Blog en un directorio llamado blog e instalará las dependencias (gemas) que están mencionadas en el Gemfile usando el comando bundle install. \n Entra a su directorio para continuar trabajando directamente en la aplicación: \n $ cd blog \n \n  1.2 Iniciando el Servidor Web \n Ya se tiene una aplicación Rails funcional, Para verla se necesita iniciar un servidor web. \n Se puede hacer ejecutando: \n $ rails server \n \n Para ver la aplicación en acción, abre el navegador preferido y accede a http://localhost:3000. \n Se debería ver la página de información por defecto de Rails. \n \n  1.3 Hola Mundo \n Para conseguir que Rails diga \"Hola\", se necesita crear como mínimo un controlador y una vista. \n Para crear un nuevo controlador llamado por ejemplo welcome con una acción llamada index. \n \n Para ello, ejecuta lo siguiente: \n $ rails generate controller welcome index \n Abre el archivo app/views/welcome/index.html.erb en tu editor de texto y edítalo para que contenga sólo está línea de código:  \n <h1>Hello, Rails!</h1>]]></string>
+    <string name="part_three_object_development_web">El alumno desarrollará una aplicación web, para su implementación en un servidor.</string>
+    <string name="object_unit_development_web">Desarrollo web significa construir y mantener sitios web; es el trabajo que tiene lugar en un segundo plano y que permite que una web tenga una apariencia impecable, un funcionamiento rápido y un buen desempeño para permitir la mejor experiencia de usuario.</string>
+    <string name="part_two_object_unit_development_web">Se encontrarán todos los temas relacionados en la Unidad III de Desarrollo Web</string>
+    <string name="part_three_theme_development_web">M (Modelo para los datos) \n Abstrae los elementos del negocio, implementando la lógica de negocio y estableciendo la relación entre modelos. \n \n V (Vista para la interfaz) \n Es lo que el usuario ve en el navegador (HTML), Contiene los gatillos para realizar acciones (enlaces y formularios) \n \n C (Controlador dirige la orquesta) \n  Realiza las peticiones del usuario y responde usando vistas o redirección a otra acción</string>
+    <string name="part_two_theme_development_web">¿Qué es Rails? \n Rails es un entorno de trabajo para Ruby que facilita todo. Cada vez que quieres generar un proyecto, Rails crea una estructura de carpetas en la que irás organizando todo el código. \n \n ¿Qué son las Gemas? \n Son paquetes de código preparados por otras personas que se pueden usar en los proyectos, ya que aportan funcionalidades habituales.\n \nSeparación de código MVC</string>
+    <string name="action_out">Salir</string>
+    <string name="msg_word">Escribe una letra para buscarla</string>
+    <string name="search_word">Buscar Letra</string>
+    <string name="next_word">Siguiente Palabra</string>
+    <string name="msg_success">¡¡Aciertalo!!</string>
+    <string name="msg_play">Jugar</string>
+    <string name="msg_life">Vidas: 3</string>
+    <string name="msg_points">Puntos: 0</string>
+    <string name="msg_correct">CORRECTO</string>
+    <string name="msg_incorrect">INCORRECTO</string>
+    <string name="msg_answer">Ingrese la respuesta correcta</string>
+    <string name="msg_confirm">Confirmar</string>
+    <string name="msg_score">Aciertos</string>
+    <string name="msg_question">Which thing is alive?</string>
+    <string name="msg_answer_one">bird</string>
+    <string name="msg_answer_two">door</string>
+    <string name="msg_answer_three">rock</string>
+    <string name="msg_qualify">Calificar</string>
+    <string name="msg_congratulations">¡¡Felicidades!! Has obtenido </string>
+    <string name="msg_title_result">Calificación obtenida</string>
+    <string name="msg_content">Contenido</string>
+    <string name="msg_return">Regresar</string>
+    <string name="msg_title_theme">Arquitectura de la información</string>
+    <string name="msg_title_unit_two">Desarrollo Web</string>
+    <string name="title_theme_one_unit_three">Integración de la aplicación web</string>
+    <string name="title_theme_two_unit_three">Puesta en marcha</string>
+    <string name="msg_selection">Selección:</string>
+    <string name="information_unit_three">Reconocer los elementos necesarios para integrar la aplicación web.</string>
+    <string name="information_theme_unit_three">Identificar los parámetros para la instalación de una aplicación web en el servidor.</string>
+    <string name="msg_title_unit_three">Ingeniería Web</string>
+    <string name="msg_description">Descripción</string>
+    <string name="msg_name">Nombre</string>
+    <string name="msg_title_units">Desarrollo de Aplicaciones Web</string>
+    <string name="title_quiz">Quiz</string>
+    <string name="title_videos">Videos</string>
+    <string name="title_plays">Juegos</string>
+    <string name="title_exercises">Ejercicios</string>
+    <string name="title_concepts">Conceptos</string>
+    <string name="title_themes">Temas</string>
+    <string name="title_unit_five">Unidad V</string>
+    <string name="not_firebase_auth">No se pudo autenticar con firebase</string>
+    <string name="not_close_session">No se pudo cerrar sesión</string>
+    <string name="title_activity_exercise_one">ExerciseOneActivity</string>
+
+    <string name="msg_exercise_four_unit_one">EJERCICIO 4: \n \nEl ejemplo consta en mostrar la suma, resta, multiplicacion y divición de 2 números que solicita el ejercicio para que se muestre el resultados de las operaciones básicas.</string>
+    <string name="msg_exercise_three_unitone">EJERCICIO 3: \n \nEl ejercicio consta de ingresar 3 notas diferentes, es decir, 3 calificaciones para que observe el si es \'Promocionado\' o \'No promocionado\' según su promedio.</string>
+    <string name="msg_exercise_two_unitone">EJERCICIO 2: \n \nEn el ejemplo debe de pedir que le proporcione 2 números para que realize una suma y resta de los datos proporcionados por el usuario.</string>
+    <string name="msg_exercise_one_unit_one">EJERCICIO 1: \n \nEl objetivo de este ejercicio es preguntar a el usuario que ingrese un número para que despues se observe si el número tiene 1 o 2 dígitos.</string>
+    <string name="title_exercises_unit_one">Unidad I \nIngeniería Web</string>
+    <string name="exercise_one">Ejercicio 1</string>
+    <string name="exercise_two">Ejercicio 2</string>
+    <string name="exercise_three">Ejercicio 3</string>
+    <string name="exercise_four">Ejercicio 4</string>
+
+
+    <string name="title_exercises_unit_two">Unidad II \nArquitectura de la Información</string>
+    <string name="msg_exercise_one_unit_two">EJERCICIO 1: \n \nSe define una clase Terreno donde se utilizan métodos abreviados (attr_writes, attr_reader, attr_accessor).  El ejercicio es para calcular el area y el precio total de acuerdo a los valores que se insertaron en los objetos.</string>
+    <string name="msg_exercise_two_unit_two">EJERCICIO 2:  \n \nSe define la clase Operacion, enseguida los métodos abreviados (attr_writes, attr_reader, attr_accessor). En el ejemplo consta se mostrarán las 4 operacion diferenes basicas (suma, resta, multiplicacion y divición) al proporcionar de 2 números.</string>
+    <string name="msg_exercise_three_unit_two">EJERCICIO 3: \n \nSe define la clase IMC, enseguida los métodos abreviados (attr_writes, attr_reader, attr_accessor) El ejercicio tiene como objetivo calcular el IMC al colocar el peso y la estatura en el objeto.</string>
+    <string name="msg_exercise_five_unit_two">EJERCICIO 4: \n \nEn este ejercicio se identifican 2 clases las cuales son Bird y Persona con sus respectivos metodos. El ejercicio proporciona cierta informacion de acuerdo a los metodos y a lo que se insero en el objeto.</string>
+
+    <string name="msg_exercise_one_unit_three">EJERCICIO 1: \n \nSe muestra la estructura para crear un nuevo proyecto en Rails(Ruby), el cual tiene como objetivo elaborar una pagina web de acuerdo a las necesidades del usuario.</string>
+    <string name="msg_exercise_three_unit_three">EJERCICIO 3: \n \nEn este ejemplo se muestra como utilizar una clase en ese caso \'Empleado\' y dentro de esta inserar metodos con \'initialize\'.</string>
+    <string name="msg_exercise_four_unit_three">EJERCICIO 4: \n \nEn este ejercicio se observara como funciona la instrucción de \'requere_relative\', en donde se especificarán parametros que se reemplazan despues en la clase especificada.</string>
+    <string name="msg_exercise_two_unit_three">EJERCICIO 2: \n \nEn este ejercicio se mostrara como utilizar un metodo y dentro de este colocar un \'Yield\' para porteriormente reemplazar \'nombre\' con un do end.</string>
+    <string name="title_exercise_unit_three">Unidad III \nDesarrollo Web</string>
+    <string name="title_programmerw">Programadora</string>
+    <string name="name_dany">Daniela Alejandra Vargas Palomino</string>
+    <string name="name_mary">Maribel Vargas Exiga</string>
+    <string name="tilte_programmer">Programador</string>
+    <string name="name_emiliano">Emiliano Aguilar Cerna</string>
+    <string name="title_recourseone">Android Studio Tutorial - RSS Reader</string>
+    <string name="msg_detailsone">EDMT Dev   https://www.youtube.com/watch?v=APInjVO0WkQ</string>
+    <string name="msg_recoursetwo">Fotografías</string>
+    <string name="msg_detailstwo">Pixabay   https://pixabay.com</string>
+    <string name="title_recoursethree">Circular ImageView</string>
+    <string name="msg_detailsthree">Ravi Rupareliya   https://android.jlelse.eu/circular-imageview-nightmare-for-beginners-822c4137e629</string>
+    <string name="title_recoursefour">Firebase</string>
+    <string name="msg_detailsfour">https://firebase.google.com</string>
+    <string name="title_resourefive">Tipografía</string>
+    <string name="msg_detailsfive">https://www.dafont.com</string>
+    <string name="title_resourcesix">How to Create a Custom Pop Up with Great UI in Android Studio</string>
+    <string name="msg_detailssix">Aws Rh   https://www.youtube.com/watch?v=0DH2tZjJtm0</string>
+    <string name="title_resourseseven">Design a Modern Simple Profile UI with Constraint Layout in Android Studio 3.1 Canary 6</string>
+    <string name="msg_detailsseven">AndroUI   https://www.youtube.com/watch?v=CZ-qLoSdzwk</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_podcast_one">Introducción Ruby on Rails</string>
+    <string name="title_podcast_two">Patrones de diseño</string>
+    <string name="title_pocast_three">Tipos de Aplicaciones</string>
+    <string name="title_podcast_four">Composición de un Sitio web</string>
+    <string name="title_podcast_five">Medios digitales</string>
+
+
+</resources>
