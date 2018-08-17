@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.utng.juniorsmed.appdaw.activity.ConceptsTwoActivity">
+
+
+
+        <FrameLayout
+            android:id="@+id/contenedor_fragments"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/SizeFragmentH"></FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#FF8332">
+
+
+       <Button
+           android:id="@+id/btn_one"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginBottom="10dp"
+           android:background="#FF9B00"
+           android:onClick="onClick"
+           android:text="Directorio" />
+
+
+
+       <Button
+           android:id="@+id/btn_two"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:text="Estructura"
+           android:layout_gravity="center"
+           android:onClick="onClick"
+           android:background="#FF9B00"
+           android:layout_marginBottom="10dp" />
+
+       <Button
+           android:id="@+id/btn_three"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:text="Sistemas de Organización"
+           android:layout_gravity="center"
+           android:onClick="onClick"
+           android:background="#FF9B00"
+           android:layout_marginBottom="10dp"/>
+
+       <Button
+           android:id="@+id/btn_four"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:text="Etiquetado"
+           android:layout_gravity="center"
+           android:onClick="onClick"
+           android:background="#FF9B00"
+           android:layout_marginBottom="10dp"/>
+
+       <Button
+           android:id="@+id/btn_five"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:text="Mapas de web"
+           android:layout_gravity="center"
+           android:onClick="onClick"
+           android:background="#FF9B00"
+           android:layout_marginBottom="10dp"/>
+
+       <Button
+           android:id="@+id/btn_six"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:text="Índices"
+           android:layout_gravity="center"
+           android:onClick="onClick"
+           android:background="#FF9B00"
+           android:layout_marginBottom="10dp"/>
+
+
+
+   </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/exercises"
+    tools:context="mx.utng.juniorsmed.appdaw.activity.ExerciseOneUnitOneActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_exercises"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_exercise"
+            android:layout_marginLeft="10dp"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginRight="50dp"
+            android:text="@string/title_exercises_unit_one"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_exercise_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_one"
+            android:onClick="onClick"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btn_exercise_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_two"
+            android:onClick="onClick"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_exercise_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_three"
+            android:layout_marginRight="10dp"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/btn_exercise_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_four"
+            android:layout_marginLeft="10dp"
+            android:onClick="onClick"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container_fragments"></FrameLayout>
+    </ScrollView>
+
+</LinearLayout>

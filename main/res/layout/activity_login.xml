@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/road"
+    tools:context="mx.utng.juniorsmed.appdaw.activity.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_Top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/imagenLogo"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo_appdaw" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_Middle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtEmail"
+            android:layout_gravity="center"
+            android:text="Ingresar"
+            android:fontFamily="@font/tp_word"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:hint="@string/enter_email"
+            android:fontFamily="@font/tp_word"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/tp_word"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/botonLogin"
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="@font/tp_word"
+            android:textStyle="bold"
+            android:text="@string/login"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_Bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRegistar"
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_bg"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tp_word"
+            android:text="@string/registar"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btn_temario"
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="@font/tp_word"
+            android:text="@string/temario"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+        <!--<com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="215dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/google_bg" /> -->
+
+    </LinearLayout>
+
+</LinearLayout>

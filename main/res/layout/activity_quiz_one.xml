@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/road"
+    tools:context="mx.utng.juniorsmed.appdaw.activity.QuizOneActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:padding="8dp"
+        android:textSize="20sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/msg_score"
+            android:textSize="18dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/txt_score_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_score"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:text="@string/msg_question"
+        android:fontFamily="@font/tp_word"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/txt_question"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_answer_one"
+        android:textSize="18dp"
+        android:fontFamily="@font/hoop"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/ligth_Bblue"
+        android:alpha="0.5"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/btn_choice_one"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_answer_two"
+        android:fontFamily="@font/hoop"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/ligth_Bblue"
+        android:alpha="0.5"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/btn_choice_two"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_answer_three"
+        android:fontFamily="@font/hoop"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/ligth_Bblue"
+        android:alpha="0.5"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/btn_choice_three"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_qualify"
+        android:fontFamily="@font/tp_word"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:alpha="0.5"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/btn_quit"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

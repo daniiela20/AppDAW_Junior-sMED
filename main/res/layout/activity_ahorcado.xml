@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/paisaje"
+    tools:context="mx.utng.juniorsmed.appdaw.activity.AhorcadoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:fontFamily="casual"
+        android:id="@+id/txt_track"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/ahorcado0"
+        android:id="@+id/img_dead" />
+
+    <Button
+        android:id="@+id/btn_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/action_out"
+        android:layout_gravity="center"
+        android:background="#D30000"
+        android:alpha=".8"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_word"
+        android:textSize="30dp"
+        android:textColor="#D32F2F"
+        android:layout_gravity= "center"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:alpha="0.8"
+        android:background="@color/colorPrimary"
+        android:ems="10"
+        android:id="@+id/edt_text_one"
+        android:hint="@string/msg_word" />
+    <Button
+        android:text="@string/search_word"
+        android:alpha="0.5"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_search" />
+
+    <Button
+        android:text="@string/next_word"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_next"
+        android:background="#D30000"
+        android:alpha=".8"
+        android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

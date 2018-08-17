@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.utng.juniorsmed.appdaw.activity.ConceptsOneActivity"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/contenedor_fragments"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/SizeFragmentH"></FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ACE84C">
+
+
+            <Button
+                android:id="@+id/btn_one"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#90CA34"
+                android:onClick="onClick"
+                android:text="Gestor de contenidos" />
+
+
+
+            <Button
+                android:id="@+id/btn_two"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="SEO"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:background="#90CA34"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/btn_three"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Phishing"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:background="#90CA34"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btn_four"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="ASP"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:background="#90CA34"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btn_five"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Friendster"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:background="#90CA34"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btn_six"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="JSP"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:background="#90CA34"
+                android:layout_marginBottom="10dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
