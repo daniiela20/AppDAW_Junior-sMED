@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="mx.utng.juniorsmed.appdaw.fragment.DetailUnitEngineeringWebFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_detail_theme"
+                android:layout_gravity="center"
+                android:layout_width="230dp"
+                android:layout_height="190dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_important_devices_black_24dp"
+                android:layout_marginBottom="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/txt_title_theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/msg_title_unit_three"
+                    android:fontFamily="@font/tp_word"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/txt_description_theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/objective_engineering_web"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/tp_word"
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical"/>
+
+                <ImageView
+                    android:id="@+id/img_firts_theme"
+                    android:layout_width="260dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/information_theme_one"
+                    android:scaleType="fitXY"
+                    android:layout_marginBottom="15dp"/>
+
+                <TextView
+                    android:id="@+id/txt_description_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parte_objective_arquitecture_information"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/tp_word"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:gravity="center_vertical"/>
+
+                <ImageView
+                    android:id="@+id/img_second_theme"
+                    android:layout_width="240dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/lap"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center" />
+                <TextView
+                    android:id="@+id/txt_description_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/tp_word"
+                    android:textColor="@color/black"
+                    android:padding="5dp"
+                    android:text="@string/part_three_object_engineering"
+                    android:gravity="center_vertical"/>
+
+                <ImageView
+                    android:id="@+id/img_third_theme"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
