@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.utng.juniorsmed.appdaw">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.LoginActivity" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.HomeActivity"
+            android:parentActivityName="mx.utng.juniorsmed.appdaw.activity.LoginActivity" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.FirstTemActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.UnitOneActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.UnitTwoActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.UnitThreeActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.LibraryActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.PodcastActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.Noticias" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.UoneThemesActivity" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.Unit1EngineeringWebActivity"
+            android:label="@string/title_activity_unit1_engineering_web"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.Unit2ArchitectureInformationActivity"
+            android:label="@string/title_activity_unit2_architecture_information"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.Unit3DevelopmentWebActivity"
+            android:label="@string/title_activity_unit3_development_web"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.QuizThreeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.ScoreThreeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.QuizOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.QuizTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.ScoreOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.ScoreTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.UsersOutActivity" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.AhorcadoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.GameThreeHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.PlayGameThreeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="mx.utng.juniorsmed.appdaw.activity.GameTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.ProfileActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.ExerciseOneUnitOneActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.ExerciseTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.ExerciseThreeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.ConceptsOneActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.ConceptsTwoActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.ConceptsThreeActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.VideosUnitOneActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.VideosUnitTwoActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.VideosUnitThreeActivity" />
+        <activity android:name="mx.utng.juniorsmed.appdaw.activity.NewsActivity" />
+    </application>
+
+</manifest>
